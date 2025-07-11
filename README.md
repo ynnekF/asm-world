@@ -1,9 +1,15 @@
 # Dependencies
-- sudo apt install nasm build-essential
+```
+sudo apt install nasm build-essential
+```
 
 # Run
-make        # Build
-make run    # Build & Run
-make clean  # Clean
-make debug  # Build & launch in gdb
+```
+>make
 
+>make run
+
+>make clean
+
+>make debug
+```
