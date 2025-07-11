@@ -1,0 +1,54 @@
+# === Build artifacts ===
+*.o
+*.obj
+*.bin
+*.out
+*.elf
+*.exe
+*.map
+*.sym
+*.iso
+*.img
+*.log
+
+# === Executables ===
+main
+hello
+build/
+dist/
+
+# === NASM temp files ===
+*.lst
+*.dump
+
+# === Debugger files ===
+*.gdb
+.gdb_history
+
+# === Core dumps ===
+core
+core.*
+
+# === IDE/Editor backups ===
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === VSCode ===
+.vscode/
+
+# === CLion / JetBrains IDEs ===
+.idea/
+cmake-build-*/
+
+# === MacOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+desktop.ini
+
+# === Git metadata safety ===
+!.gitignore
